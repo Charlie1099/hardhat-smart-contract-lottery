@@ -1,7 +1,10 @@
 require("@nomiclabs/hardhat-waffle")
 require("@nomiclabs/hardhat-etherscan")
-require("")
-
+require("dotenv").config()
+require("hardhat-gas-reporter")
+require("solidity-coverage")
+require("hardhat-deploy")
+require("hardhat-contract-sizer")
 
 
 
